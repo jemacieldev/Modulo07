@@ -1,0 +1,65 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Estilo das etiquetas e dos campos de entrada */
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #f0f0f0;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0.2rem #007bff;
+}
+
+/* Estilo do botão de envio */
+button[type="submit"] {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo da mensagem de validação */
+#mensagem {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
